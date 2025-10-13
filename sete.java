@@ -7,7 +7,7 @@ public class sete {
         int quantMaior = 0;
 
         for(int i= 1; i <=10; i++){
-            System.out.println("Digite sua idade" + i + ":");
+            System.out.println("Digite a idade da pessoa " + i + ":");
             idade = input.nextInt();
 
             if(idade >= 18){
@@ -18,4 +18,5 @@ public class sete {
 
         }
     }
+
 
